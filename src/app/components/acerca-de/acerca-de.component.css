@@ -30,10 +30,10 @@ top: 18ch;
         #perfil{
             position: absolute;
             width: 195px;
-            border-radius:95%;
+            border-radius:25%;
             box-shadow: 3px 3px 3px grey;
-            top: 281px;
-            left: 54%;
+            top: 235px;
+            left: 36%;
         }
 }
 #nombre{
