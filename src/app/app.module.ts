@@ -12,6 +12,7 @@ import { SocialComponent } from './components/social/social.component';
 import { EstudiosComponent } from './components/estudios/estudios.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HysComponent } from './components/hys/hys.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { HysComponent } from './components/hys/hys.component';
     ExperienciaComponent,
     SocialComponent,
     EstudiosComponent,
-    HysComponent
+    HysComponent,
+    ProyectosComponent,
   ],
   imports: [
     BrowserModule,

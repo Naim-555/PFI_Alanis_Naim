@@ -1,9 +1,22 @@
-.row{
+.row {
     padding: 20px;
+  
 }
-div{
-background-color: rgb(218, 249, 250);   
+
+div {
+    background-color: rgb(218, 249, 250);
+
 }
-h1,h3{
+
+h1,
+h3 {
     display: inline;
 }
+@media(min-width:575px) {
+    details {
+        padding-left: 145px;
+        padding-right: 40%;
+        cursor: pointer;
+    }
+}
+  

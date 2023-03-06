@@ -5,7 +5,7 @@ div{
     background-color:rgb(227,252,253);
     text-align: left;
 }
-/**/
+/*
 @media(min-width:576px){
     #perfil{
         position: absolute;
@@ -15,15 +15,35 @@ div{
         left: 1.5%;
 
     }
-}
+}*/
 @media(min-width:576px){
     #perfil{
         position: absolute;
         width: 170px;
-        border-radius:0;
-        box-shadow: 3px 3px 3px grey;
-        left: 1.5%;
-top: 18ch;
+        border-radius: 15%;
+        box-shadow: 3px 3px 3px rgb(157,159,226);
+        left: 3.5ch;
+        top: 18ch;
+    }
+    #nombre{
+        text-shadow: 0px 3px 5px rgb(157,159,226);
+        position: absolute;
+        font-weight: bold;
+        left: 24ch;
+        top: 18ch;
+    }
+    #titulo{
+        text-shadow: 0px 3px 5px rgb(157,159,226);
+        position: absolute;
+        font-weight:bolder;
+        left: 24ch;
+        top: 20ch;
+    }
+    .acerca_de_mi{
+        
+        left: 2%;
+        padding: auto;
+          
     }
 }
     @media(max-width:575px){
@@ -35,10 +55,13 @@ top: 18ch;
             top: 235px;
             left: 36%;
         }
-}
-#nombre{
-    font-weight: bold;
-   left: 15%;
-   /* margin-top: 25%;
-    */
+        #nombre{
+            text-shadow: 0px 3px 5px rgb(88, 141, 255);
+           -webkit-text-fill-color: rgb(0, 0, 0);
+        }
+        #titulo{
+            text-shadow: 0px 3px 5px rgb(157,159,226);
+            -webkit-text-fill-color: coral;
+        }
+
 }

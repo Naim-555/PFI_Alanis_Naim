@@ -2,11 +2,11 @@ div{
     background-color:rgb(55,187,237);
 }
 #baner1{
-    
 background-repeat: no-repeat;
 /*Centramos el fondo al centro*/
 background-position: center;
 /*Y le decimos que siempre ocupe el ancho y el alto con esto*/
 background-size: cover;
 }
+
 

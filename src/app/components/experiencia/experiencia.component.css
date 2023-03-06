@@ -7,3 +7,10 @@ background-color: rgb(218, 249, 250);
 h1,h3{
     display: inline;
 }
+@media(min-width:575px){
+    details{
+    padding-left: 185px;
+    padding-right: 40%;
+    cursor: pointer;
+}
+}
