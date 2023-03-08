@@ -9,8 +9,7 @@ h1,h3{
 }
 @media(min-width:575px){
     details{
-    padding-left: 185px;
-    padding-right: 40%;
-    cursor: pointer;
+    padding-left: 30vh;
+    width: 124vh;
 }
 }

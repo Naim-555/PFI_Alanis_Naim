@@ -14,6 +14,7 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HysComponent } from './components/hys/hys.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { SkilsComponent } from './components/skils/skils.component';
+import { EdytrabajoComponent } from './components/edytrabajo/edytrabajo.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { SkilsComponent } from './components/skils/skils.component';
     HysComponent,
     ProyectosComponent,
     SkilsComponent,
+    EdytrabajoComponent,
   ],
   imports: [
     BrowserModule,

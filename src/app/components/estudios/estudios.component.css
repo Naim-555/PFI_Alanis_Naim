@@ -14,10 +14,9 @@ h3 {
 }
 @media(min-width:575px) {
     details {
-        padding-left: 145px;
-        padding-right: 40%;
-        cursor: pointer;
-    position: relative;
+        padding-left: 30vh;
+        width: 124vh;
     }
 }
   
+

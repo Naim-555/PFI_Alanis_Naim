@@ -40,9 +40,8 @@ div{
         top: 20ch;
     }
     .acerca_de_mi{
+        width: 60vh;
         
-        left: 2%;
-        padding: auto;
           
     }
 }
