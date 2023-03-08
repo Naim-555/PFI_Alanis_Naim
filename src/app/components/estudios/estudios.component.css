@@ -17,6 +17,7 @@ h3 {
         padding-left: 145px;
         padding-right: 40%;
         cursor: pointer;
+    position: relative;
     }
 }
   
