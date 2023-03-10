@@ -159,7 +159,8 @@
     }
 
     h1 {
-        text-align: center;
+    left: 2vw;  
+    position: relative;
     }
 
     h3 {
@@ -170,7 +171,6 @@
         width: auto
             /*valia 500px*/
         ;
-        margin: 60px auto;
         color: #110808;
         /*color de las letras,#fff para el dark mode*/
         padding: 20px;

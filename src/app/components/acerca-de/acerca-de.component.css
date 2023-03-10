@@ -21,11 +21,12 @@ div{
         position: absolute;
         width: 170px;
         border-radius: 15%;
-        box-shadow: 3px 3px 3px rgb(157,159,226);
+        box-shadow: 3px 3px 10px rgb(252, 244, 207);
         left: 3.5ch;
         top: 18ch;
     }
     #nombre{
+        color: aliceblue;
         text-shadow: 0px 3px 5px rgb(157,159,226);
         position: absolute;
         font-weight: bold;
@@ -51,7 +52,7 @@ div{
             width: 195px;
             border-radius:25%;
             box-shadow: 3px 3px 3px grey;
-            top: 235px;
+            top: 245px;
             left: 36%;
         }
         #nombre{

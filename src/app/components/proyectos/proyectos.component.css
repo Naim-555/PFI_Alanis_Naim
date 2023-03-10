@@ -1,5 +1,200 @@
-#base{
- padding-left: 30vh;
- padding-top: 27px;
-background-color: rgb(218,241,248); 
+#img-proyecto {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 30px;
+
+}
+
+@media(min-width: 576px) {
+    h2 {
+        padding-left: 30vh;
+        padding-bottom: 12px;
+        padding-top: 12px;
+    }
+
+    details {
+
+        width: 124vh;
+
+    }
+
+    summary {
+        list-style: none;
+    }
+
+    summary :before {
+        /*iconito*/
+        content: "⟱";
+        margin-right: 10px;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .accordion {
+        margin: 0px auto;
+        width: 600px;
+
+
+    }
+
+    .accordion li {
+        list-style: none;
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+            -6px -6px 10px -1px rgba(225, 225, 255, 0.7);
+    }
+
+    .accordion li label {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        /**/
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    label::before {
+        /*iconito*/
+        content: "+";
+        margin-right: 10px;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    input[type="radio"] {
+        display: none;
+    }
+
+    .accordion .content {
+        color: #555;
+        padding: 0 10px;
+        line-height: 26px;
+        max-height: 0;
+        overflow: hidden;
+        transition:max-height 0.5s, padding 0.5s;
+    }
+
+    .accordion input[type="radio"]:checked+label+.content {
+        max-height: 400px;
+        padding: 10px 10px 20px;
+    }
+
+    .accordion input[type="radio"]:checked+label::before {
+        content: "-";
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+        background-color: rgb(218, 249, 250);
+        padding-bottom: 12px;
+        padding-top: 12px;
+    }
+
+
+
+}
+
+@media(max-width: 575px) {
+    h2{
+        padding-left: 4vh;
+    }
+
+    details {
+
+        width: 124vh;
+
+    }
+
+    summary {
+        list-style: none;
+
+    }
+
+    summary :before {
+        /*iconito*/
+        content: "⟱";
+        margin-right: 10px;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+
+
+    .accordion {
+        margin: 0px auto;
+
+    }
+
+    .accordion li {
+        list-style: none;
+        width: 91vw;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+            -6px -6px 10px -1px rgba(225, 225, 255, 0.7);
+    }
+
+    .accordion li label {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        /**/
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    label::before {
+        /*iconito*/
+        content: "+";
+        margin-right: 10px;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    input[type="radio"] {
+        display: none;
+    }
+
+    .accordion .content {
+        color: #555;
+        padding: 0 10px;
+        line-height: 26px;
+        max-height: 0;
+        overflow: hidden;
+        transition:max-height 0.5s, padding 0.5s;
+    }
+
+    .accordion input[type="radio"]:checked + label + .content {
+        max-height: 400px;
+        padding: 10px 10px 20px;
+    }
+
+    .accordion input[type="radio"]:checked + label::before {
+        content: "-";
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+        background-color: rgb(218, 249, 250);
+        padding-bottom: 4px;
+        padding-top: 3px;
+    }
+
 }

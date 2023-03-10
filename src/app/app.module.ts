@@ -8,13 +8,11 @@ import { LogoAPComponent } from './components/logo-ap/logo-ap.component';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
-import { SocialComponent } from './components/social/social.component';
 import { EstudiosComponent } from './components/estudios/estudios.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
-import { HysComponent } from './components/hys/hys.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { SkilsComponent } from './components/skils/skils.component';
-import { EdytrabajoComponent } from './components/edytrabajo/edytrabajo.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,12 +22,10 @@ import { EdytrabajoComponent } from './components/edytrabajo/edytrabajo.componen
     AcercaDeComponent,
     BannerComponent,
     ExperienciaComponent,
-    SocialComponent,
     EstudiosComponent,
-    HysComponent,
     ProyectosComponent,
     SkilsComponent,
-    EdytrabajoComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
